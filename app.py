@@ -409,7 +409,7 @@ class MainWindow(QMainWindow):
 
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Wallpaper Manager")
+        self.setWindowTitle("Pivio Wallpaper Manager")
         self.setMinimumSize(900, 600)
         self.resize(1100, 700)
 
