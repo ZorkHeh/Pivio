@@ -21,15 +21,18 @@ There are scripts to automate the environment setup and execution.
 ### Build the Project
 Run the build script to automatically set up the virtual environment and attempt to create a system shortcut.
 ```bash
-chmod +x build.sh
 ./build.sh
 ```
 
 ### Run the App
 
 ```bash
-chmod +x run.sh
 ./run.sh
+```
+
+If you got permission denied while trying to run the scripts, run th following command to grant them executable permissions:
+```bash
+chmod +x run.sh build.sh
 ```
 
 ## LICENCE
