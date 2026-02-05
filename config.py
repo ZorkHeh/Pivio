@@ -11,7 +11,7 @@ VALID_VIDEO_EXTENSIONS: list[str] = ['.mp4', '.webm']
 PREVIEW_EXTENSIONS: list[str] = ['preview.jpg', 'preview.png', 'preview.gif', 'preview.jpeg']
 
 SERVICE_SCRIPT: str = os.path.abspath('pivio-autostart.sh')
-SERVICE_NAME: str = 'vwallppaper-autostart.service'
+SERVICE_NAME: str = 'pivio-autostart.service'
 SERVICE_PATH: Path =  Path.home() / '.config/systemd/user' / SERVICE_NAME
 SERVICE_TEMPLATE_PATH: Path = Path("pivio.service.template")
 
